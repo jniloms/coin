@@ -1,0 +1,864 @@
+[
+    {
+        "test": 1,
+        "times": {
+            "splitdatasets": 0.059396982192993164,
+            "makerules": 5.4949469566345215,
+            "analyseclass1": 1.8380513191223145,
+            "analyseclass2": 2.0264291763305664
+        },
+        "benigno": {
+            "hits": 92.82051282051282,
+            "mistakes": 7.17948717948718
+        },
+        "maligno": {
+            "hits": 98.08612440191388,
+            "mistakes": 1.9138755980861244
+        }
+    },
+    {
+        "test": 2,
+        "times": {
+            "splitdatasets": 0.07104325294494629,
+            "makerules": 5.612587928771973,
+            "analyseclass1": 1.8353393077850342,
+            "analyseclass2": 1.7643871307373047
+        },
+        "benigno": {
+            "hits": 90.50279329608938,
+            "mistakes": 9.497206703910615
+        },
+        "maligno": {
+            "hits": 98.42931937172774,
+            "mistakes": 1.5706806282722514
+        }
+    },
+    {
+        "test": 3,
+        "times": {
+            "splitdatasets": 0.0664212703704834,
+            "makerules": 5.478899002075195,
+            "analyseclass1": 1.652625322341919,
+            "analyseclass2": 1.8679494857788086
+        },
+        "benigno": {
+            "hits": 90.50279329608938,
+            "mistakes": 9.497206703910615
+        },
+        "maligno": {
+            "hits": 94.71153846153847,
+            "mistakes": 5.288461538461538
+        }
+    },
+    {
+        "test": 4,
+        "times": {
+            "splitdatasets": 0.06266450881958008,
+            "makerules": 5.398339033126831,
+            "analyseclass1": 1.9500741958618164,
+            "analyseclass2": 1.8178441524505615
+        },
+        "benigno": {
+            "hits": 91.54929577464789,
+            "mistakes": 8.450704225352112
+        },
+        "maligno": {
+            "hits": 95.5223880597015,
+            "mistakes": 4.477611940298507
+        }
+    },
+    {
+        "test": 5,
+        "times": {
+            "splitdatasets": 0.06241464614868164,
+            "makerules": 5.39923882484436,
+            "analyseclass1": 2.0393502712249756,
+            "analyseclass2": 1.7827816009521484
+        },
+        "benigno": {
+            "hits": 89.0909090909091,
+            "mistakes": 10.909090909090908
+        },
+        "maligno": {
+            "hits": 97.42268041237114,
+            "mistakes": 2.577319587628866
+        }
+    },
+    {
+        "test": 6,
+        "times": {
+            "splitdatasets": 0.059383392333984375,
+            "makerules": 5.4170241355896,
+            "analyseclass1": 1.8724141120910645,
+            "analyseclass2": 1.790956974029541
+        },
+        "benigno": {
+            "hits": 92.26804123711341,
+            "mistakes": 7.731958762886598
+        },
+        "maligno": {
+            "hits": 98.46153846153847,
+            "mistakes": 1.5384615384615385
+        }
+    },
+    {
+        "test": 7,
+        "times": {
+            "splitdatasets": 0.0684964656829834,
+            "makerules": 5.445582866668701,
+            "analyseclass1": 1.9610044956207275,
+            "analyseclass2": 1.8236336708068848
+        },
+        "benigno": {
+            "hits": 90.0,
+            "mistakes": 10.0
+        },
+        "maligno": {
+            "hits": 95.47738693467336,
+            "mistakes": 4.522613065326633
+        }
+    },
+    {
+        "test": 8,
+        "times": {
+            "splitdatasets": 0.061128854751586914,
+            "makerules": 5.557322025299072,
+            "analyseclass1": 1.8740644454956055,
+            "analyseclass2": 1.8184659481048584
+        },
+        "benigno": {
+            "hits": 92.34693877551021,
+            "mistakes": 7.653061224489796
+        },
+        "maligno": {
+            "hits": 96.35416666666667,
+            "mistakes": 3.6458333333333335
+        }
+    },
+    {
+        "test": 9,
+        "times": {
+            "splitdatasets": 0.0594940185546875,
+            "makerules": 5.831212520599365,
+            "analyseclass1": 1.899660348892212,
+            "analyseclass2": 2.088102340698242
+        },
+        "benigno": {
+            "hits": 88.58695652173913,
+            "mistakes": 11.41304347826087
+        },
+        "maligno": {
+            "hits": 92.61083743842364,
+            "mistakes": 7.389162561576355
+        }
+    },
+    {
+        "test": 10,
+        "times": {
+            "splitdatasets": 0.0670166015625,
+            "makerules": 5.508686065673828,
+            "analyseclass1": 1.6757316589355469,
+            "analyseclass2": 1.677800178527832
+        },
+        "benigno": {
+            "hits": 94.21965317919076,
+            "mistakes": 5.780346820809249
+        },
+        "maligno": {
+            "hits": 95.6043956043956,
+            "mistakes": 4.395604395604396
+        }
+    },
+    {
+        "test": 11,
+        "times": {
+            "splitdatasets": 0.06662249565124512,
+            "makerules": 5.401690721511841,
+            "analyseclass1": 1.739532709121704,
+            "analyseclass2": 1.8352272510528564
+        },
+        "benigno": {
+            "hits": 92.2279792746114,
+            "mistakes": 7.772020725388601
+        },
+        "maligno": {
+            "hits": 97.04433497536945,
+            "mistakes": 2.955665024630542
+        }
+    },
+    {
+        "test": 12,
+        "times": {
+            "splitdatasets": 0.06000995635986328,
+            "makerules": 5.511706113815308,
+            "analyseclass1": 1.958850383758545,
+            "analyseclass2": 1.7814795970916748
+        },
+        "benigno": {
+            "hits": 89.15094339622641,
+            "mistakes": 10.849056603773585
+        },
+        "maligno": {
+            "hits": 95.36082474226804,
+            "mistakes": 4.639175257731959
+        }
+    },
+    {
+        "test": 13,
+        "times": {
+            "splitdatasets": 0.06296086311340332,
+            "makerules": 5.440948247909546,
+            "analyseclass1": 1.7602829933166504,
+            "analyseclass2": 1.5780737400054932
+        },
+        "benigno": {
+            "hits": 94.24083769633508,
+            "mistakes": 5.7591623036649215
+        },
+        "maligno": {
+            "hits": 95.34883720930233,
+            "mistakes": 4.651162790697675
+        }
+    },
+    {
+        "test": 14,
+        "times": {
+            "splitdatasets": 0.06326699256896973,
+            "makerules": 5.407923460006714,
+            "analyseclass1": 1.662259578704834,
+            "analyseclass2": 1.7718439102172852
+        },
+        "benigno": {
+            "hits": 91.80327868852459,
+            "mistakes": 8.19672131147541
+        },
+        "maligno": {
+            "hits": 95.97989949748744,
+            "mistakes": 4.0201005025125625
+        }
+    },
+    {
+        "test": 15,
+        "times": {
+            "splitdatasets": 0.0659952163696289,
+            "makerules": 5.424809217453003,
+            "analyseclass1": 1.9627845287322998,
+            "analyseclass2": 2.2005794048309326
+        },
+        "benigno": {
+            "hits": 89.25233644859813,
+            "mistakes": 10.74766355140187
+        },
+        "maligno": {
+            "hits": 96.72131147540983,
+            "mistakes": 3.278688524590164
+        }
+    },
+    {
+        "test": 16,
+        "times": {
+            "splitdatasets": 0.06581473350524902,
+            "makerules": 5.383608341217041,
+            "analyseclass1": 1.9140818119049072,
+            "analyseclass2": 1.8885643482208252
+        },
+        "benigno": {
+            "hits": 89.90384615384616,
+            "mistakes": 10.096153846153847
+        },
+        "maligno": {
+            "hits": 97.07317073170732,
+            "mistakes": 2.926829268292683
+        }
+    },
+    {
+        "test": 17,
+        "times": {
+            "splitdatasets": 0.06004929542541504,
+            "makerules": 5.396756649017334,
+            "analyseclass1": 1.7494196891784668,
+            "analyseclass2": 2.022829294204712
+        },
+        "benigno": {
+            "hits": 93.6842105263158,
+            "mistakes": 6.315789473684211
+        },
+        "maligno": {
+            "hits": 96.0,
+            "mistakes": 4.0
+        }
+    },
+    {
+        "test": 18,
+        "times": {
+            "splitdatasets": 0.06858396530151367,
+            "makerules": 5.428913354873657,
+            "analyseclass1": 1.886716604232788,
+            "analyseclass2": 1.7633147239685059
+        },
+        "benigno": {
+            "hits": 87.37864077669903,
+            "mistakes": 12.62135922330097
+        },
+        "maligno": {
+            "hits": 93.84615384615384,
+            "mistakes": 6.153846153846154
+        }
+    },
+    {
+        "test": 19,
+        "times": {
+            "splitdatasets": 0.05933022499084473,
+            "makerules": 5.410551071166992,
+            "analyseclass1": 1.734574794769287,
+            "analyseclass2": 1.8264837265014648
+        },
+        "benigno": {
+            "hits": 91.57894736842105,
+            "mistakes": 8.421052631578947
+        },
+        "maligno": {
+            "hits": 96.53465346534654,
+            "mistakes": 3.4653465346534653
+        }
+    },
+    {
+        "test": 20,
+        "times": {
+            "splitdatasets": 0.059557437896728516,
+            "makerules": 5.410475969314575,
+            "analyseclass1": 1.711047887802124,
+            "analyseclass2": 1.8111820220947266
+        },
+        "benigno": {
+            "hits": 90.0,
+            "mistakes": 10.0
+        },
+        "maligno": {
+            "hits": 93.5,
+            "mistakes": 6.5
+        }
+    },
+    {
+        "test": 21,
+        "times": {
+            "splitdatasets": 0.06080007553100586,
+            "makerules": 5.437481641769409,
+            "analyseclass1": 1.760680913925171,
+            "analyseclass2": 1.6826448440551758
+        },
+        "benigno": {
+            "hits": 90.67357512953367,
+            "mistakes": 9.32642487046632
+        },
+        "maligno": {
+            "hits": 95.6989247311828,
+            "mistakes": 4.301075268817204
+        }
+    },
+    {
+        "test": 22,
+        "times": {
+            "splitdatasets": 0.06569504737854004,
+            "makerules": 5.420638084411621,
+            "analyseclass1": 2.1151764392852783,
+            "analyseclass2": 2.0115339756011963
+        },
+        "benigno": {
+            "hits": 92.5764192139738,
+            "mistakes": 7.423580786026201
+        },
+        "maligno": {
+            "hits": 95.0,
+            "mistakes": 5.0
+        }
+    },
+    {
+        "test": 23,
+        "times": {
+            "splitdatasets": 0.06143307685852051,
+            "makerules": 5.41166615486145,
+            "analyseclass1": 1.8055789470672607,
+            "analyseclass2": 1.9171993732452393
+        },
+        "benigno": {
+            "hits": 91.5,
+            "mistakes": 8.5
+        },
+        "maligno": {
+            "hits": 97.66355140186916,
+            "mistakes": 2.336448598130841
+        }
+    },
+    {
+        "test": 24,
+        "times": {
+            "splitdatasets": 0.06278657913208008,
+            "makerules": 5.42854905128479,
+            "analyseclass1": 1.7194287776947021,
+            "analyseclass2": 1.6730902194976807
+        },
+        "benigno": {
+            "hits": 89.94708994708995,
+            "mistakes": 10.052910052910052
+        },
+        "maligno": {
+            "hits": 98.36065573770492,
+            "mistakes": 1.639344262295082
+        }
+    },
+    {
+        "test": 25,
+        "times": {
+            "splitdatasets": 0.05893874168395996,
+            "makerules": 5.450678586959839,
+            "analyseclass1": 1.8557186126708984,
+            "analyseclass2": 1.9597752094268799
+        },
+        "benigno": {
+            "hits": 92.6470588235294,
+            "mistakes": 7.352941176470588
+        },
+        "maligno": {
+            "hits": 96.7741935483871,
+            "mistakes": 3.225806451612903
+        }
+    },
+    {
+        "test": 26,
+        "times": {
+            "splitdatasets": 0.06251358985900879,
+            "makerules": 5.439643144607544,
+            "analyseclass1": 1.83693265914917,
+            "analyseclass2": 1.8222010135650635
+        },
+        "benigno": {
+            "hits": 92.23300970873787,
+            "mistakes": 7.766990291262136
+        },
+        "maligno": {
+            "hits": 96.09756097560975,
+            "mistakes": 3.902439024390244
+        }
+    },
+    {
+        "test": 27,
+        "times": {
+            "splitdatasets": 0.059597015380859375,
+            "makerules": 5.411147594451904,
+            "analyseclass1": 1.7018089294433594,
+            "analyseclass2": 1.9529328346252441
+        },
+        "benigno": {
+            "hits": 93.4065934065934,
+            "mistakes": 6.593406593406593
+        },
+        "maligno": {
+            "hits": 97.70642201834862,
+            "mistakes": 2.293577981651376
+        }
+    },
+    {
+        "test": 28,
+        "times": {
+            "splitdatasets": 0.06130528450012207,
+            "makerules": 5.453505039215088,
+            "analyseclass1": 1.8145625591278076,
+            "analyseclass2": 1.4100000858306885
+        },
+        "benigno": {
+            "hits": 86.36363636363636,
+            "mistakes": 13.636363636363637
+        },
+        "maligno": {
+            "hits": 96.7741935483871,
+            "mistakes": 3.225806451612903
+        }
+    },
+    {
+        "test": 29,
+        "times": {
+            "splitdatasets": 0.06269168853759766,
+            "makerules": 5.434229135513306,
+            "analyseclass1": 2.0305566787719727,
+            "analyseclass2": 1.6905345916748047
+        },
+        "benigno": {
+            "hits": 89.95433789954338,
+            "mistakes": 10.045662100456621
+        },
+        "maligno": {
+            "hits": 96.23655913978494,
+            "mistakes": 3.763440860215054
+        }
+    },
+    {
+        "test": 30,
+        "times": {
+            "splitdatasets": 0.06326889991760254,
+            "makerules": 5.429433584213257,
+            "analyseclass1": 2.0366103649139404,
+            "analyseclass2": 1.6788346767425537
+        },
+        "benigno": {
+            "hits": 89.63963963963964,
+            "mistakes": 10.36036036036036
+        },
+        "maligno": {
+            "hits": 96.73913043478261,
+            "mistakes": 3.260869565217391
+        }
+    },
+    {
+        "test": 31,
+        "times": {
+            "splitdatasets": 0.060530662536621094,
+            "makerules": 5.421110391616821,
+            "analyseclass1": 1.8397860527038574,
+            "analyseclass2": 1.9964966773986816
+        },
+        "benigno": {
+            "hits": 93.06930693069307,
+            "mistakes": 6.930693069306931
+        },
+        "maligno": {
+            "hits": 97.24770642201835,
+            "mistakes": 2.7522935779816513
+        }
+    },
+    {
+        "test": 32,
+        "times": {
+            "splitdatasets": 0.06087160110473633,
+            "makerules": 5.390976428985596,
+            "analyseclass1": 1.8331687450408936,
+            "analyseclass2": 1.8065738677978516
+        },
+        "benigno": {
+            "hits": 91.58415841584159,
+            "mistakes": 8.415841584158416
+        },
+        "maligno": {
+            "hits": 97.01492537313433,
+            "mistakes": 2.985074626865672
+        }
+    },
+    {
+        "test": 33,
+        "times": {
+            "splitdatasets": 0.05995464324951172,
+            "makerules": 5.448515892028809,
+            "analyseclass1": 1.5088443756103516,
+            "analyseclass2": 1.749772310256958
+        },
+        "benigno": {
+            "hits": 92.63803680981596,
+            "mistakes": 7.361963190184049
+        },
+        "maligno": {
+            "hits": 97.90575916230367,
+            "mistakes": 2.094240837696335
+        }
+    },
+    {
+        "test": 34,
+        "times": {
+            "splitdatasets": 0.06038260459899902,
+            "makerules": 5.459450960159302,
+            "analyseclass1": 1.8384311199188232,
+            "analyseclass2": 1.6466872692108154
+        },
+        "benigno": {
+            "hits": 89.5,
+            "mistakes": 10.5
+        },
+        "maligno": {
+            "hits": 97.79005524861878,
+            "mistakes": 2.2099447513812156
+        }
+    },
+    {
+        "test": 35,
+        "times": {
+            "splitdatasets": 0.06037306785583496,
+            "makerules": 5.425432205200195,
+            "analyseclass1": 1.6193876266479492,
+            "analyseclass2": 1.9102146625518799
+        },
+        "benigno": {
+            "hits": 92.13483146067416,
+            "mistakes": 7.865168539325842
+        },
+        "maligno": {
+            "hits": 92.95774647887323,
+            "mistakes": 7.042253521126761
+        }
+    },
+    {
+        "test": 36,
+        "times": {
+            "splitdatasets": 0.059694528579711914,
+            "makerules": 5.4505531787872314,
+            "analyseclass1": 1.593949556350708,
+            "analyseclass2": 1.9642889499664307
+        },
+        "benigno": {
+            "hits": 95.93023255813954,
+            "mistakes": 4.069767441860465
+        },
+        "maligno": {
+            "hits": 97.10144927536231,
+            "mistakes": 2.898550724637681
+        }
+    },
+    {
+        "test": 37,
+        "times": {
+            "splitdatasets": 0.05849003791809082,
+            "makerules": 5.3920793533325195,
+            "analyseclass1": 1.925311803817749,
+            "analyseclass2": 2.0278565883636475
+        },
+        "benigno": {
+            "hits": 92.99065420560747,
+            "mistakes": 7.009345794392523
+        },
+        "maligno": {
+            "hits": 97.33333333333333,
+            "mistakes": 2.6666666666666665
+        }
+    },
+    {
+        "test": 38,
+        "times": {
+            "splitdatasets": 0.05905318260192871,
+            "makerules": 5.431119441986084,
+            "analyseclass1": 1.9653337001800537,
+            "analyseclass2": 1.8202691078186035
+        },
+        "benigno": {
+            "hits": 88.67924528301887,
+            "mistakes": 11.320754716981131
+        },
+        "maligno": {
+            "hits": 95.95959595959596,
+            "mistakes": 4.040404040404041
+        }
+    },
+    {
+        "test": 39,
+        "times": {
+            "splitdatasets": 0.0597844123840332,
+            "makerules": 5.442157030105591,
+            "analyseclass1": 1.713719129562378,
+            "analyseclass2": 1.8992493152618408
+        },
+        "benigno": {
+            "hits": 92.47311827956989,
+            "mistakes": 7.526881720430108
+        },
+        "maligno": {
+            "hits": 97.12918660287082,
+            "mistakes": 2.8708133971291865
+        }
+    },
+    {
+        "test": 40,
+        "times": {
+            "splitdatasets": 0.05943131446838379,
+            "makerules": 5.399200201034546,
+            "analyseclass1": 1.883462905883789,
+            "analyseclass2": 1.8896548748016357
+        },
+        "benigno": {
+            "hits": 90.77669902912622,
+            "mistakes": 9.223300970873787
+        },
+        "maligno": {
+            "hits": 97.59615384615384,
+            "mistakes": 2.4038461538461537
+        }
+    },
+    {
+        "test": 41,
+        "times": {
+            "splitdatasets": 0.05897784233093262,
+            "makerules": 5.424292802810669,
+            "analyseclass1": 1.8701355457305908,
+            "analyseclass2": 1.9890687465667725
+        },
+        "benigno": {
+            "hits": 90.38461538461539,
+            "mistakes": 9.615384615384615
+        },
+        "maligno": {
+            "hits": 95.06726457399103,
+            "mistakes": 4.932735426008969
+        }
+    },
+    {
+        "test": 42,
+        "times": {
+            "splitdatasets": 0.059163570404052734,
+            "makerules": 5.3723061084747314,
+            "analyseclass1": 1.8139424324035645,
+            "analyseclass2": 1.8516731262207031
+        },
+        "benigno": {
+            "hits": 92.42424242424242,
+            "mistakes": 7.575757575757576
+        },
+        "maligno": {
+            "hits": 97.54901960784314,
+            "mistakes": 2.450980392156863
+        }
+    },
+    {
+        "test": 43,
+        "times": {
+            "splitdatasets": 0.059954166412353516,
+            "makerules": 5.4287145137786865,
+            "analyseclass1": 1.8755700588226318,
+            "analyseclass2": 1.7353744506835938
+        },
+        "benigno": {
+            "hits": 92.71844660194175,
+            "mistakes": 7.281553398058253
+        },
+        "maligno": {
+            "hits": 96.37305699481865,
+            "mistakes": 3.626943005181347
+        }
+    },
+    {
+        "test": 44,
+        "times": {
+            "splitdatasets": 0.059920549392700195,
+            "makerules": 5.431997299194336,
+            "analyseclass1": 2.023892641067505,
+            "analyseclass2": 1.8277747631072998
+        },
+        "benigno": {
+            "hits": 90.0,
+            "mistakes": 10.0
+        },
+        "maligno": {
+            "hits": 97.28260869565217,
+            "mistakes": 2.717391304347826
+        }
+    },
+    {
+        "test": 45,
+        "times": {
+            "splitdatasets": 0.06008744239807129,
+            "makerules": 5.445648193359375,
+            "analyseclass1": 1.747917890548706,
+            "analyseclass2": 1.9116227626800537
+        },
+        "benigno": {
+            "hits": 92.5925925925926,
+            "mistakes": 7.407407407407407
+        },
+        "maligno": {
+            "hits": 95.71428571428571,
+            "mistakes": 4.285714285714286
+        }
+    },
+    {
+        "test": 46,
+        "times": {
+            "splitdatasets": 0.05902814865112305,
+            "makerules": 5.403059482574463,
+            "analyseclass1": 1.7266933917999268,
+            "analyseclass2": 2.1291565895080566
+        },
+        "benigno": {
+            "hits": 92.89617486338798,
+            "mistakes": 7.103825136612022
+        },
+        "maligno": {
+            "hits": 96.99570815450643,
+            "mistakes": 3.004291845493562
+        }
+    },
+    {
+        "test": 47,
+        "times": {
+            "splitdatasets": 0.06097698211669922,
+            "makerules": 5.411222457885742,
+            "analyseclass1": 1.893552303314209,
+            "analyseclass2": 1.8753809928894043
+        },
+        "benigno": {
+            "hits": 90.0,
+            "mistakes": 10.0
+        },
+        "maligno": {
+            "hits": 94.68599033816425,
+            "mistakes": 5.314009661835748
+        }
+    },
+    {
+        "test": 48,
+        "times": {
+            "splitdatasets": 0.06093788146972656,
+            "makerules": 5.426683187484741,
+            "analyseclass1": 1.8562657833099365,
+            "analyseclass2": 1.7449095249176025
+        },
+        "benigno": {
+            "hits": 93.13725490196079,
+            "mistakes": 6.862745098039215
+        },
+        "maligno": {
+            "hits": 94.89795918367346,
+            "mistakes": 5.1020408163265305
+        }
+    },
+    {
+        "test": 49,
+        "times": {
+            "splitdatasets": 0.06134796142578125,
+            "makerules": 5.407354354858398,
+            "analyseclass1": 1.748746395111084,
+            "analyseclass2": 1.8939578533172607
+        },
+        "benigno": {
+            "hits": 92.67015706806282,
+            "mistakes": 7.329842931937173
+        },
+        "maligno": {
+            "hits": 95.1923076923077,
+            "mistakes": 4.8076923076923075
+        }
+    },
+    {
+        "test": 50,
+        "times": {
+            "splitdatasets": 0.06308960914611816,
+            "makerules": 5.424585819244385,
+            "analyseclass1": 1.7160615921020508,
+            "analyseclass2": 1.8316373825073242
+        },
+        "benigno": {
+            "hits": 90.42553191489361,
+            "mistakes": 9.574468085106384
+        },
+        "maligno": {
+            "hits": 94.08866995073892,
+            "mistakes": 5.911330049261084
+        }
+    },
+    {
+        "average": {
+            "benigno": {
+                "hits": 91.3415114635568,
+                "mistakes": 8.658488536443175
+            },
+            "maligno": {
+                "hits": 96.26047071800596,
+                "mistakes": 3.7395292819940322
+            }
+        }
+    }
+]

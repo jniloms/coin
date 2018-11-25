@@ -1,0 +1,591 @@
+<?xml version='1.0' encoding='utf-8'?>
+<interface>
+  <object class="ttk.Frame" id="mainwindow">
+    <property name="height">200</property>
+    <property name="width">800</property>
+    <layout>
+      <property name="column">0</property>
+      <property name="propagate">True</property>
+      <property name="row">0</property>
+    </layout>
+    <child>
+      <object class="ttk.Frame" id="Frame_up">
+        <property name="height">50</property>
+        <property name="width">780</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="padx">20</property>
+          <property name="pady">20</property>
+          <property name="propagate">True</property>
+          <property name="row">0</property>
+          <property name="sticky">n</property>
+        </layout>
+        <child>
+          <object class="tk.Message" id="Message_1">
+            <property name="font">TkHeadingFont</property>
+            <property name="justify">center</property>
+            <property name="takefocus">false</property>
+            <property name="text" translatable="yes">Binary Classification System Using Specialist Systems with Fuzzy</property>
+            <property name="width">780</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+            </layout>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Frame" id="Frame_middle">
+        <property name="height">200</property>
+        <property name="width">780</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">1</property>
+        </layout>
+        <child>
+          <object class="ttk.Notebook" id="Notebook_1">
+            <property name="height">380</property>
+            <property name="width">750</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+            </layout>
+            <child>
+              <object class="ttk.Notebook.Tab" id="Tab_1">
+                <property name="text" translatable="yes">Make Rules</property>
+                <child>
+                  <object class="ttk.Frame" id="Frame_8">
+                    <property name="height">800</property>
+                    <property name="width">750</property>
+                    <layout>
+                      <property name="column">0</property>
+                      <property name="propagate">True</property>
+                      <property name="row">0</property>
+                    </layout>
+                    <child>
+                      <object class="ttk.Labelframe" id="Labelframe_1">
+                        <property name="height">200</property>
+                        <property name="text" translatable="yes">Class 1</property>
+                        <property name="width">650</property>
+                        <layout>
+                          <property name="column">0</property>
+                          <property name="padx">5</property>
+                          <property name="pady">5</property>
+                          <property name="propagate">True</property>
+                          <property name="row">0</property>
+                          <property name="sticky">nw</property>
+                        </layout>
+                        <child>
+                          <object class="tk.Label" id="Label_1">
+                            <property name="text" translatable="yes">Name</property>
+                            <layout>
+                              <property name="column">0</property>
+                              <property name="padx">5</property>
+                              <property name="pady">5</property>
+                              <property name="propagate">True</property>
+                              <property name="row">0</property>
+                              <property name="sticky">w</property>
+                            </layout>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="tk.Entry" id="Entry_nameC1">
+                            <property name="insertborderwidth">5</property>
+                            <property name="insertofftime">0</property>
+                            <property name="insertontime">0</property>
+                            <property name="insertwidth">2</property>
+                            <property name="justify">left</property>
+                            <property name="selectborderwidth">0</property>
+                            <property name="validate">none</property>
+                            <property name="width">20</property>
+                            <layout>
+                              <property name="column">1</property>
+                              <property name="padx">5</property>
+                              <property name="pady">5</property>
+                              <property name="propagate">True</property>
+                              <property name="row">0</property>
+                              <property name="sticky">w</property>
+                            </layout>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="ttk.Label" id="Label_2">
+                            <property name="text" translatable="yes">File</property>
+                            <layout>
+                              <property name="column">0</property>
+                              <property name="padx">5</property>
+                              <property name="pady">5</property>
+                              <property name="propagate">True</property>
+                              <property name="row">1</property>
+                              <property name="sticky">w</property>
+                            </layout>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="ttk.Entry" id="Entry_fileC1">
+                            <property name="textvariable">string:self.arqG1</property>
+                            <property name="width">70</property>
+                            <layout>
+                              <property name="column">1</property>
+                              <property name="padx">5</property>
+                              <property name="pady">5</property>
+                              <property name="propagate">True</property>
+                              <property name="row">1</property>
+                              <property name="sticky">w</property>
+                            </layout>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="ttk.Button" id="Button_3">
+                            <property name="command">on_load_file_class1</property>
+                            <property name="text" translatable="yes">Find File</property>
+                            <layout>
+                              <property name="column">3</property>
+                              <property name="padx">5</property>
+                              <property name="pady">5</property>
+                              <property name="propagate">True</property>
+                              <property name="row">1</property>
+                              <property name="sticky">w</property>
+                            </layout>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="ttk.Labelframe" id="Labelframe_2">
+                        <property name="height">200</property>
+                        <property name="text" translatable="yes">Class 2</property>
+                        <property name="width">650</property>
+                        <layout>
+                          <property name="column">0</property>
+                          <property name="padx">5</property>
+                          <property name="pady">5</property>
+                          <property name="propagate">True</property>
+                          <property name="row">1</property>
+                          <property name="sticky">w</property>
+                        </layout>
+                        <child>
+                          <object class="tk.Label" id="Label_4">
+                            <property name="text" translatable="yes">Name</property>
+                            <layout>
+                              <property name="column">0</property>
+                              <property name="padx">5</property>
+                              <property name="pady">5</property>
+                              <property name="propagate">True</property>
+                              <property name="row">0</property>
+                              <property name="sticky">w</property>
+                            </layout>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="tk.Entry" id="Entry_nameC2">
+                            <property name="insertofftime">0</property>
+                            <property name="insertontime">0</property>
+                            <property name="insertwidth">2</property>
+                            <property name="selectborderwidth">0</property>
+                            <property name="width">20</property>
+                            <layout>
+                              <property name="column">1</property>
+                              <property name="padx">5</property>
+                              <property name="pady">5</property>
+                              <property name="propagate">True</property>
+                              <property name="row">0</property>
+                              <property name="sticky">w</property>
+                            </layout>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="ttk.Label" id="Label_5">
+                            <property name="text" translatable="yes">File</property>
+                            <layout>
+                              <property name="column">0</property>
+                              <property name="padx">5</property>
+                              <property name="pady">5</property>
+                              <property name="propagate">True</property>
+                              <property name="row">1</property>
+                              <property name="sticky">w</property>
+                            </layout>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="ttk.Entry" id="Entry_fileC2">
+                            <property name="width">70</property>
+                            <layout>
+                              <property name="column">1</property>
+                              <property name="padx">5</property>
+                              <property name="pady">5</property>
+                              <property name="propagate">True</property>
+                              <property name="row">1</property>
+                              <property name="sticky">w</property>
+                            </layout>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="ttk.Button" id="Button_5">
+                            <property name="command">on_load_file_class2</property>
+                            <property name="text" translatable="yes">Find File</property>
+                            <layout>
+                              <property name="column">3</property>
+                              <property name="padx">5</property>
+                              <property name="pady">5</property>
+                              <property name="propagate">True</property>
+                              <property name="row">1</property>
+                              <property name="sticky">w</property>
+                            </layout>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="ttk.Labelframe" id="Labelframe_3">
+                        <property name="height">203</property>
+                        <property name="text" translatable="yes">Rules File Name</property>
+                        <property name="width">650</property>
+                        <layout>
+                          <property name="column">0</property>
+                          <property name="padx">5</property>
+                          <property name="pady">5</property>
+                          <property name="propagate">True</property>
+                          <property name="row">2</property>
+                          <property name="sticky">sw</property>
+                        </layout>
+                        <child>
+                          <object class="ttk.Entry" id="Entry_rulesFile">
+                            <property name="width">77</property>
+                            <layout>
+                              <property name="column">0</property>
+                              <property name="padx">5</property>
+                              <property name="pady">5</property>
+                              <property name="propagate">True</property>
+                              <property name="row">0</property>
+                            </layout>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="ttk.Button" id="Button_6">
+                            <property name="command">on_load_file_rules</property>
+                            <property name="cursor">arrow</property>
+                            <property name="text" translatable="yes">Find File</property>
+                            <layout>
+                              <property name="column">1</property>
+                              <property name="padx">5</property>
+                              <property name="pady">5</property>
+                              <property name="propagate">True</property>
+                              <property name="row">0</property>
+                              <property name="sticky">e</property>
+                            </layout>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="ttk.Button" id="Button_1">
+                        <property name="command">on_make_rules</property>
+                        <property name="text" translatable="yes">Make Rules</property>
+                        <layout>
+                          <property name="column">0</property>
+                          <property name="padx">20</property>
+                          <property name="pady">20</property>
+                          <property name="propagate">True</property>
+                          <property name="row">3</property>
+                          <property name="sticky">w</property>
+                        </layout>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="ttk.Button" id="Button_13">
+                        <property name="command">on_make_rules_and_tests</property>
+                        <property name="text" translatable="yes">Make Rules and Tests</property>
+                        <layout>
+                          <property name="column">0</property>
+                          <property name="padx">20</property>
+                          <property name="pady">20</property>
+                          <property name="propagate">True</property>
+                          <property name="row">3</property>
+                          <property name="sticky">e</property>
+                        </layout>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="ttk.Progressbar" id="Progressbar_1">
+                        <property name="length">700</property>
+                        <property name="maximum">50</property>
+                        <property name="mode">determinate</property>
+                        <property name="orient">horizontal</property>
+                        <property name="value">0</property>
+                        <layout>
+                          <property name="column">0</property>
+                          <property name="padx">5</property>
+                          <property name="pady">5</property>
+                          <property name="propagate">True</property>
+                          <property name="row">4</property>
+                        </layout>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Notebook.Tab" id="Tab_2">
+                <property name="text" translatable="yes">Classify</property>
+                <child>
+                  <object class="ttk.Frame" id="Frame_1">
+                    <property name="height">200</property>
+                    <property name="width">200</property>
+                    <layout>
+                      <property name="column">0</property>
+                      <property name="propagate">True</property>
+                      <property name="row">0</property>
+                    </layout>
+                    <child>
+                      <object class="ttk.Labelframe" id="Labelframe_4">
+                        <property name="height">200</property>
+                        <property name="text" translatable="yes">Data File Name</property>
+                        <property name="width">650</property>
+                        <layout>
+                          <property name="column">0</property>
+                          <property name="padx">5</property>
+                          <property name="pady">5</property>
+                          <property name="propagate">True</property>
+                          <property name="row">0</property>
+                          <property name="sticky">nw</property>
+                        </layout>
+                        <child>
+                          <object class="ttk.Entry" id="Entry_dataFile">
+                            <property name="width">77</property>
+                            <layout>
+                              <property name="column">1</property>
+                              <property name="padx">5</property>
+                              <property name="pady">5</property>
+                              <property name="propagate">True</property>
+                              <property name="row">1</property>
+                              <property name="sticky">w</property>
+                            </layout>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="ttk.Button" id="Button_2">
+                            <property name="command">on_load_dataFile</property>
+                            <property name="text" translatable="yes">Find File</property>
+                            <layout>
+                              <property name="column">3</property>
+                              <property name="padx">5</property>
+                              <property name="pady">5</property>
+                              <property name="propagate">True</property>
+                              <property name="row">1</property>
+                              <property name="sticky">w</property>
+                            </layout>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="ttk.Labelframe" id="Labelframe_5">
+                        <property name="height">203</property>
+                        <property name="text" translatable="yes">Rules File Name</property>
+                        <property name="width">650</property>
+                        <layout>
+                          <property name="column">0</property>
+                          <property name="padx">5</property>
+                          <property name="pady">5</property>
+                          <property name="propagate">True</property>
+                          <property name="row">2</property>
+                          <property name="sticky">sw</property>
+                        </layout>
+                        <child>
+                          <object class="ttk.Entry" id="Entry_rulesFile2">
+                            <property name="width">77</property>
+                            <layout>
+                              <property name="column">0</property>
+                              <property name="padx">5</property>
+                              <property name="pady">5</property>
+                              <property name="propagate">True</property>
+                              <property name="row">0</property>
+                            </layout>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="ttk.Button" id="Button_4">
+                            <property name="command">on_load_file_rules</property>
+                            <property name="cursor">arrow</property>
+                            <property name="text" translatable="yes">Find File</property>
+                            <layout>
+                              <property name="column">1</property>
+                              <property name="padx">5</property>
+                              <property name="pady">5</property>
+                              <property name="propagate">True</property>
+                              <property name="row">0</property>
+                              <property name="sticky">e</property>
+                            </layout>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="ttk.Labelframe" id="Labelframe_9">
+                        <property name="height">200</property>
+                        <property name="text" translatable="yes">Result File Name</property>
+                        <property name="width">650</property>
+                        <layout>
+                          <property name="column">0</property>
+                          <property name="padx">5</property>
+                          <property name="pady">5</property>
+                          <property name="propagate">True</property>
+                          <property name="row">4</property>
+                          <property name="sticky">nw</property>
+                        </layout>
+                        <child>
+                          <object class="ttk.Entry" id="Entry_resultFile">
+                            <property name="width">77</property>
+                            <layout>
+                              <property name="column">1</property>
+                              <property name="padx">5</property>
+                              <property name="pady">5</property>
+                              <property name="propagate">True</property>
+                              <property name="row">1</property>
+                              <property name="sticky">w</property>
+                            </layout>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="ttk.Button" id="Button_12">
+                            <property name="command">on_load_result_file</property>
+                            <property name="text" translatable="yes">Find File</property>
+                            <layout>
+                              <property name="column">3</property>
+                              <property name="padx">5</property>
+                              <property name="pady">5</property>
+                              <property name="propagate">True</property>
+                              <property name="row">1</property>
+                              <property name="sticky">w</property>
+                            </layout>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="ttk.Labelframe" id="Labelframe_6">
+                        <property name="height">200</property>
+                        <property name="text" translatable="yes">Result Column Name</property>
+                        <property name="width">200</property>
+                        <layout>
+                          <property name="column">0</property>
+                          <property name="padx">5</property>
+                          <property name="pady">5</property>
+                          <property name="propagate">True</property>
+                          <property name="row">6</property>
+                          <property name="sticky">w</property>
+                        </layout>
+                        <child>
+                          <object class="ttk.Entry" id="Entry_ResultColumn">
+                            <property name="text" translatable="yes">Labels</property>
+                            <property name="width">88</property>
+                            <layout>
+                              <property name="column">1</property>
+                              <property name="padx">5</property>
+                              <property name="pady">5</property>
+                              <property name="propagate">True</property>
+                              <property name="row">1</property>
+                            </layout>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="ttk.Button" id="Button_7">
+                        <property name="command">on_classify</property>
+                        <property name="text" translatable="yes">Classify</property>
+                        <layout>
+                          <property name="column">0</property>
+                          <property name="padx">20</property>
+                          <property name="pady">20</property>
+                          <property name="propagate">True</property>
+                          <property name="row">7</property>
+                          <property name="sticky">w</property>
+                        </layout>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="ttk.Notebook.Tab" id="Tab_4">
+                <property name="text" translatable="yes">About</property>
+                <child>
+                  <object class="ttk.Frame" id="Frame_3">
+                    <property name="height">200</property>
+                    <property name="width">200</property>
+                    <layout>
+                      <property name="column">0</property>
+                      <property name="propagate">True</property>
+                      <property name="row">0</property>
+                    </layout>
+                    <child>
+                      <object class="tk.Message" id="Message_2">
+                        <property name="text" translatable="yes">
+This program was made by: 
+
+Nilo Martins and Ricardo Paranhos 
+
+to a class of Computer Intelligence
+ 
+by Prof. Fernando Buarque, PhD
+ 
+from University of Pernambuco – UPE,
+School of Engineering – POLI
+
+Year 2018
+
+This software are licensed by GPLv3
+
+Contact: jniloms@gmail.com
+</property>
+                        <layout>
+                          <property name="column">0</property>
+                          <property name="propagate">True</property>
+                          <property name="row">0</property>
+                        </layout>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+    <child>
+      <object class="ttk.Frame" id="Frame_down">
+        <property name="height">200</property>
+        <property name="width">200</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">2</property>
+          <property name="sticky">s</property>
+        </layout>
+        <child>
+          <object class="ttk.Button" id="btnClose">
+            <property name="command">on_close_clicked</property>
+            <property name="text" translatable="yes">Sair</property>
+            <property name="underline">0</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="padx">10</property>
+              <property name="pady">10</property>
+              <property name="propagate">True</property>
+              <property name="row">0</property>
+            </layout>
+          </object>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
